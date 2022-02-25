@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/second/second",
+    "pages/message/message",
+    "pages/weather/weather",
+    "pages/formtext/formtext",
+    "pages/echartsview/echartsview",
+    "pages/bar/index",
+    "pages/boxplot/index",
+    "pages/scatter/index",
+    "pages/pie/index",
+    "pages/line/index",
+    "pages/unfold/unfold",
+    "pages/unfold2/newunfold",
+    "pages/map/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

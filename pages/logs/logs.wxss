@@ -1,0 +1,16 @@
+.log-list {
+  display: flex;
+  flex-direction: column; 
+  padding: 20rpx;
+  background-color: burlywood;
+}
+.log-item {
+  /* margin: 10rpx; */
+  height: auto;
+  width: auto;
+  text-align: left;
+  margin-left: 18px;
+  margin-right: 18px;
+  color:green;
+  background-color:blue;
+}

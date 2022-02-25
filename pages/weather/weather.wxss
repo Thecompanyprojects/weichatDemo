@@ -1,0 +1,57 @@
+/* pages/weather/weather.wxss */
+page{
+  height:100vh;
+}
+
+.background-view{
+  position: relative;
+  background-color:lightcyan;
+  height: 100vh;
+}
+
+.weather-image{
+  height:220px;
+  width: 100%;
+  position: absolute;
+  background-color: lightcyan;
+}
+
+.weather-view{
+  display: flex;
+  width: 100vw;
+  /*row 横向  column 列表  */
+  flex-direction: column;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.city-name{
+  color: gray;
+  /* position: absolute; */
+  z-index: 1;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.weather-text{
+  color: orange;
+  margin-left: 20px;
+  margin-top: 8px;
+  /* position: absolute; */
+}
+
+.temperature-text{
+  color: orange;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.weather-message{
+  position: absolute;
+  width: 80%;
+  height: 20px;
+  margin-top: 120px;
+  margin-left: 20px;
+  color: white;
+  visibility: visible;
+}

@@ -1,0 +1,27 @@
+
+<!-- <text class="background-view">彩云天气</text> -->
+<!-- <view class="layout_vertical">
+
+ </view> -->
+ <view class="background-view">
+    <!-- 需要使用 button 来授权登录 -->
+    <button open-type="getUserInfo" bindgetuserinfo="bindgetWeather">获取天气预报</button>
+  
+    <view bindtap='click'>点击</view>
+    <view hidden="{{hiddenName}}">隐藏显示部分</view>
+    <image  class="weather-image" mode="aspectFill" src="https://img0.baidu.com/it/u=56500378,3545157588&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500">
+    </image> 
+    <view class="weather-view">
+      <text class="city-name">{{citynm}}</text>
+      <text class="weather-text">{{week}}</text>
+      <text class="temperature-text">{{temperature}}</text>
+    </view>
+
+   <text class="weather-message">这个是相关的内容</text>
+
+
+
+   
+</view>
+
+

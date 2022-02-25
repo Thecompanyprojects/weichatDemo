@@ -1,0 +1,49 @@
+<!--pages/second/second.wxml-->
+<!-- <text>pages/second/second.wxml</text> -->
+
+  <view class="message2">message</view>
+
+  <view class="logImgbg">
+    <cover-image class="logo_Img" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=623994087,1173615898&fm=26&gp=0.jpg">logoImg</cover-image>
+  </view>
+ 
+ <form class="form-message">
+    <view class="weui-cell__bd" >
+      <input class="weui-input" name='input' placeholder="这是输入框"/>
+    </view>
+    <view class="weui-cell__bd" >
+       <input class="weui-input" name='input' placeholder="这是输入框"/>
+    </view>
+    <view class="btn-area">
+      <button  type="primary" formType="submit" class="submit_Btn">Submit</button>
+      <button  formType="reset">Reset</button>
+    </view>
+ </form>
+
+ <view class="message2">
+  <button bindtap="addTest">模态弹窗</button>
+ </view>
+ 
+ <view class="message2">
+  <button bindtap="tableClick">跳转table页面</button>
+ </view>
+ 
+ <view class="message2">
+  <button bindtap="tableClick2">彩云天气api</button>
+ </view>
+
+ <view class="message2">
+  <button bindtap="tableClick3">表单提交</button>
+ </view>
+
+ <view class="message2">
+  <button bindtap="tableClick4">饼状图</button>
+ </view>
+
+ <view class="message2">
+  <button bindtap="tableClick5">折叠列表</button>
+ </view>
+
+ <view class="message2">
+  <button bindtap="tableClick6">折叠列表2</button>
+ </view>

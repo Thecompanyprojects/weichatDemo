@@ -1,0 +1,73 @@
+/* pages/message/message.wxss */
+
+.list-item{
+  background-color:lightcyan;
+  /* display: flex;
+  flex-direction: column; 
+  orientation: portrait; */
+  height: 98px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+.message-item{
+  margin-top: 10px;
+  background-color: lightblue;
+  height: 120px;
+  width: auto;
+  text-align: left;
+}
+
+/*纵向布局  */
+.layout_vertical{
+  display: flex;
+  height: 88px;
+  /*row 横向  column 列表  */
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+/*横向布局  */
+.layout_horizontal{
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+  background-color: orange;
+  margin-top: 14px;
+  margin-left: 14px;
+  margin-right: 14px;
+  position: relative; /*父元素位置要设置为相对*/
+}
+
+
+.name-text{ 
+  color: black;
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+  line-height: 16px;
+}
+
+.monty_text{
+  color: #E42D3B;
+  /* text-align: right;
+  line-height: 16px;
+  margin-left: 14px;
+  margin-right: 14px; */
+  line-height: 16px;
+  position: absolute;  
+  right: 0;
+}
+
+.message-text{
+  color:#666666;
+  margin-left: 14px;
+  margin-right: 14px;
+  font-size: 14px;
+  margin-top: 10px;
+  position: relative;/*父元素位置要设置为相对*/
+}
+
+

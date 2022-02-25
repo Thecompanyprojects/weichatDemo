@@ -1,0 +1,12 @@
+<!--pages/message/message.wxml-->
+<!-- <text>pages/message/message.wxml</text> -->
+<view wx:for="{{16}}" class="list-item"> 
+
+  <view class = "layout_vertical" bindtap="itemClick">
+    <view class="layout_horizontal">
+      <text class="name-text">操作工（汽车线束厂）备份</text> 
+      <text class="monty_text">10K</text> 
+    </view>
+    <text class="message-text">安波福（中国）投资有限公司备份</text>  
+  </view>
+</view>

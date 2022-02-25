@@ -1,0 +1,41 @@
+/* pages/second/second.wxss */
+.message2{
+  margin-top: 10px;
+  background-color: lightblue;
+  height: auto;
+  width: auto;
+  text-align: center;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.logImgbg{
+  margin-top: 20px;
+  height: auto;
+  width: auto;
+  align-items: center;
+  background-color:olivedrab;
+  align-items: center;/** 垂直居中*/
+  display: flex;
+  justify-content: center; /** flex 属性， 水平居中**/
+}
+
+
+.logo_Img{
+  overflow: hidden;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  /* width: 40%;
+  height: 90%; */
+}
+
+.weui-cell__bd{
+  margin-top: 20px;
+  color: green;
+  background-color: orange;
+  height: 50px;
+}
+
+.submit_Btn{
+  margin-top: 20px;
+}
