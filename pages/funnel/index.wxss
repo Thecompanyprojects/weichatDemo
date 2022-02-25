@@ -1,0 +1,10 @@
+/* pages/funnel/index.wxss */
+/**index.wxss**/
+page{
+  width: 100vw;
+  height: 100vh;
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}

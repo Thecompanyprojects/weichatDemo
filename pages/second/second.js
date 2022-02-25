@@ -67,6 +67,12 @@ Page({
     })
   },
 
+  tableClick7:function(){
+    wx.navigateTo({
+      url: '../dropdown/dropdown'
+    })
+  },
+
   changeTitle:function(){
     console.log('修改标题');
     wx.setNavigationBarTitle({

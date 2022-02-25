@@ -7,7 +7,7 @@
     <cover-image class="logo_Img" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=623994087,1173615898&fm=26&gp=0.jpg">logoImg</cover-image>
   </view>
  
- <form class="form-message">
+ <!-- <form class="form-message">
     <view class="weui-cell__bd" >
       <input class="weui-input" name='input' placeholder="这是输入框"/>
     </view>
@@ -18,7 +18,7 @@
       <button  type="primary" formType="submit" class="submit_Btn">Submit</button>
       <button  formType="reset">Reset</button>
     </view>
- </form>
+ </form> -->
 
  <view class="message2">
   <button bindtap="addTest">模态弹窗</button>
@@ -46,4 +46,8 @@
 
  <view class="message2">
   <button bindtap="tableClick6">折叠列表2</button>
+ </view>
+
+ <view class="message2">
+  <button bindtap="tableClick7">下拉菜单</button>
  </view>

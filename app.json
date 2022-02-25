@@ -1,5 +1,5 @@
 {
-  "pages": [
+  "pages": [    
     "pages/index/index",
     "pages/logs/logs",
     "pages/second/second",
@@ -14,14 +14,47 @@
     "pages/line/index",
     "pages/unfold/unfold",
     "pages/unfold2/newunfold",
-    "pages/map/index"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "",
-    "navigationBarTextStyle": "black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages/map/index",
+    "pages/funnel/index",
+    "pages/dropdown/dropdown"],
+
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#1578FF",
+      "navigationBarTitleText": "测试内容",
+      "navigationBarTextStyle": "white"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+
+    "tabBar": {
+      "selectedColor":"#1578FF",
+      "color": "#2C2C2C",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "img/list_nor.png",
+          "selectedIconPath": "img/list_sel.png"
+        },
+        {
+          "pagePath": "pages/weather/weather",
+          "text": "日志",
+          "iconPath": "img/user_nor.png",
+          "selectedIconPath": "img/user_sel.png"
+        },
+        {
+          "pagePath": "pages/echartsview/echartsview",
+          "text": "图标",
+          "iconPath": "img/user_nor.png",
+          "selectedIconPath": "img/user_sel.png"
+        }
+      ]
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+    },
+    "debug": true
 }
